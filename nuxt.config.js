@@ -36,7 +36,8 @@ module.exports = {
     }
   },
   plugins: [
-    { src: '~/plugins/vue-fullcalendar', ssr: false }
+    { src: '~/plugins/vue-fullcalendar', ssr: false },
+    { src: '~/plugins/jquery', ssr: false }
   ],
   css: [
     'fullcalendar/dist/fullcalendar.min.css'
