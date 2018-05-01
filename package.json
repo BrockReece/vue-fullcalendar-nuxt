@@ -13,6 +13,8 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
+    "jquery-ui-bundle": "^1.12.1-migrate",
+    "moment": "^2.22.1",
     "nuxt": "^1.0.0",
     "vue-full-calendar": "^2.5.4"
   },
