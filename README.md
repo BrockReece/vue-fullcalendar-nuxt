@@ -33,10 +33,10 @@ import 'jquery-ui-bundle'
 window.$ = window.jQuery = jquery
 ```
 
-This plugin can then be included in your `nuxt.js` config file, with the `ssr` flag set to false. 
+This plugin can then be included in your `nuxt.config.js` config file, with the `ssr` flag set to false. 
 
 ```js
-// nuxt.js
+// nuxt.config.js
 plugins: [
     { src: '~/plugins/jquery', ssr: false }
 ],
